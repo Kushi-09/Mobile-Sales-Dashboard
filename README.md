@@ -163,10 +163,10 @@ All visuals dynamically update based on selected filters.
 
 ---
 
-## 6. Screenshots / Demos
+## 6. Snapshot of Dashboard
 
 📸 *Dashboard Preview:*
-https://github.com/Kushi-09/Mobile-Sales-Dashboard/blob/main/Mobile_sales_dashboard_snapshot.png
+![Mobile Sales Dashboard](Mobile_sales_dashboard_snapshot.png)
 
 ---
 
