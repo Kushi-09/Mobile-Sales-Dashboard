@@ -156,12 +156,3 @@ Metrics include:
 3. Use slicers and filters to explore insights interactively  
 
 ---
-
-## ⭐ Why This Project Matters
-This project demonstrates:
-- Strong analytical thinking
-- Business-focused data storytelling
-- Proficiency in Power BI, DAX, and Power Query
-- Real-world sales analytics use case
-
-Ideal for **Data Analyst / Business Analyst / Power BI Developer** portfolios.
