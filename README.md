@@ -1,172 +1,167 @@
-# Mobile-Sales-Dashboard
+# 📱 Mobile Sales Analytics Dashboard
 
-## 1. Project Title
-**📊 Mobile Sales Analytics: Multi-Brand Performance & Customer Insights Dashboard** :
-An interactive Power BI dashboard designed to analyze mobile phone sales across brands, cities, time periods, and payment methods—helping businesses understand sales performance, customer behavior, and market trends.
-
-## 2. Short Description 
-The **Mobile Sales Analytics Dashboard** is a comprehensive Power BI report that provides insights into mobile phone sales across multiple brands and models. It enables stakeholders to monitor revenue, sales volume, transactions, customer ratings, and payment preferences across cities and time periods for data-driven decision-making.
-
-## 3. Tech Stack
-The dashboard was built using the following tools and technologies:
-
-* 📊 **Power BI Desktop** – Core data visualization and dashboard development tool
-* 📂 **Power Query** – Used for data cleaning, transformation, and preprocessing
-* 🧠 **DAX (Data Analysis Expressions)** – Created calculated measures for KPIs such as total sales, average sales, and transaction metrics
-* 📁 **Data Source Structure** – Single flat table containing sales, customer, product, and transaction attributes
-* 📄 **File Format** – `.pbix` for development and `.png` for dashboard previews
-
-## 4. Data Source
-
-**Source:** Practice mobile sales dataset
-
-The dataset contains sales records of mobile phones across multiple brands and models, including:
-
-* Brand and mobile model
-* Sales amount and quantity sold
-* Transaction details
-* Payment methods (UPI, Debit Card, Credit Card, Cash)
-* Customer ratings
-* City-level sales data
-* Date attributes (month, day)
-
-This structure allows detailed analysis across geography, time, customer satisfaction, and payment behavior.
-
-## 5. Features / Highlights
-
-### • Business Problem
-
-Mobile retailers and analysts often struggle to quickly answer key questions such as:
-
-* Which mobile brands and models generate the highest revenue?
-* Which cities contribute most to sales?
-* How do sales vary by month and day?
-* What payment methods do customers prefer?
-* How do customer ratings impact sales performance?
-
-Raw transactional data makes these insights difficult to identify without an analytical layer.
+> **An interactive Power BI dashboard analyzing mobile phone sales across brands, cities, time periods, and payment methods to uncover revenue trends and customer behavior insights.**
 
 ---
 
-### • Goal of the Dashboard
-
-The goal of this dashboard is to:
-
-* Provide a **centralized view of mobile sales performance**
-* Enable **brand, city, and time-based comparisons**
-* Identify **top-selling models and customer preferences**
-* Support **business, marketing, and inventory decisions**
-* Deliver insights in a **clear, interactive, and visually engaging format**
+## 📸 Dashboard Preview
+<img src="Mobile_sales_dashboard_snapshot.png" width="1000"/>
 
 ---
 
-### • Walkthrough of Key Visuals
-
-#### 🔹 Key KPIs (Top Section)
-
-* **Total Sales:** 769M
-* **Total Quantity Sold:** 19K units
-* **Total Transactions:** 4K
-* **Average Sales Value:** 40K
-
-These KPIs provide a quick executive snapshot of overall performance.
+## 🎯 Project Objective
+The objective of this project is to analyze mobile phone sales data to:
+- Track overall revenue and sales performance
+- Compare brand-wise and model-wise performance
+- Identify high-performing cities and peak sales periods
+- Understand customer payment preferences and satisfaction trends
+- Support data-driven business and marketing decisions
 
 ---
 
-#### 🔹 Interactive Filters & Slicers
+## 🧠 Business Problem
+Mobile retailers and analysts often face challenges in answering key business questions such as:
+- Which mobile brands and models generate the highest revenue?
+- Which cities contribute the most to total sales?
+- How do sales vary across months and weekdays?
+- What payment methods are preferred by customers?
+- Does customer rating influence overall sales performance?
 
-* Mobile Model
-* Brand
-* Payment Method
-* Day Name
-* Month Selector (January–December)
-
-All visuals dynamically update based on selected filters.
-
----
-
-#### 🔹 Total Sales by City (Map Visual)
-
-* Geographic distribution of sales across major Indian cities such as Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Kolkata, etc.
-* Helps identify **high-revenue regions and emerging markets**.
+Raw transactional data alone makes it difficult to extract such insights.  
+This dashboard converts raw data into **actionable, visual insights**.
 
 ---
 
-#### 🔹 Total Quantity by Month (Line Chart)
-
-* Displays monthly sales quantity trends.
-* Useful for **seasonality analysis** and identifying peak sales periods.
-
----
-
-#### 🔹 Transactions by Payment Method (Donut Chart)
-
-* Breakdown of transactions across:
-
-  * UPI
-  * Debit Card
-  * Credit Card
-  * Cash
-* Highlights customer payment preferences and digital adoption trends.
+## 🛠 Tech Stack
+- **Power BI Desktop** – Data visualization and dashboard development  
+- **Power Query** – Data cleaning, transformation, and preprocessing  
+- **DAX (Data Analysis Expressions)** – KPI calculations and dynamic measures  
+- **Data Structure** – Single flat table  
+- **File Formats** – `.pbix` (development), `.png` (dashboard preview)
 
 ---
 
-#### 🔹 Customer Ratings Distribution ( Funnel Visual)
+## 📂 Data Source
+**Source:** Practice mobile sales dataset  
 
-* Shows how customers rate their purchases (1–5 scale).
-* Enables analysis of **customer satisfaction patterns**.
+The dataset includes:
+- Brand and mobile model  
+- Sales amount and quantity sold  
+- Transaction details  
+- Payment methods (UPI, Debit Card, Credit Card, Cash)  
+- Customer ratings (1–5)  
+- City-level sales data  
+- Date attributes (month, day)
 
----
-
-#### 🔹 Total Sales by Brand (Table)
-
-* Comparison of major brands such as:
-
-  * Apple
-  * Samsung
-  * OnePlus
-  * Vivo
-  * Xiaomi
-* Metrics include:
-
-  * Total Sales
-  * Total Quantity
-  * Total Transactions
+This structure enables analysis across **geography, time, customer behavior, and product performance**.
 
 ---
 
-#### 🔹 Total Sales by Mobile Model (Bar Chart)
-
-* Identifies top-performing mobile models such as:
-
-  * iPhone SE
-  * OnePlus models
-  * Samsung Galaxy models
-* Useful for **product-level performance analysis**.
+## 📊 Key Metrics
+- **Total Sales:** 769M  
+- **Total Quantity Sold:** 19K units  
+- **Total Transactions:** 4K  
+- **Average Sales Value:** 40K  
 
 ---
 
-#### 🔹 Sales by Day of the Week (Area / Line Chart)
+## 📈 Dashboard Walkthrough
 
-* Tracks sales trends across weekdays.
-* Helps businesses optimize **promotions and staffing strategies**.
+### 🔹 Interactive Filters & Slicers
+- Brand  
+- Mobile Model  
+- Payment Method  
+- Day Name  
+- Month  
 
----
-
-### • Business Impact & Insights
-
-* **Sales Optimization:** Identify top brands and models driving maximum revenue
-* **Market Analysis:** Understand city-wise demand and regional performance
-* **Customer Behavior:** Analyze payment preferences and rating trends
-* **Inventory Planning:** Forecast demand using monthly and daily sales patterns
-* **Strategic Decisions:** Support pricing, marketing, and expansion strategies
+(All visuals update dynamically based on selections)
 
 ---
 
-## 6. Snapshot of Dashboard
-
-📸 *Dashboard Preview:*
-![Mobile Sales Dashboard](Mobile_sales_dashboard_snapshot.png)
+### 🔹 Sales by City (Map Visual)
+- Visualizes geographic distribution of sales across major Indian cities
+- Helps identify high-revenue regions and growth opportunities
 
 ---
 
+### 🔹 Monthly Quantity Trend (Line Chart)
+- Displays quantity sold by month
+- Useful for seasonality analysis and demand forecasting
+
+---
+
+### 🔹 Payment Method Analysis (Donut Chart)
+- Breakdown of transactions by:
+  - UPI  
+  - Debit Card  
+  - Credit Card  
+  - Cash  
+- Highlights customer preference for digital payments
+
+---
+
+### 🔹 Customer Ratings Distribution (Funnel Visual)
+- Shows distribution of customer ratings (1–5)
+- Helps assess overall customer satisfaction trends
+
+---
+
+### 🔹 Brand Performance (Table)
+- Comparison of major brands such as:
+  - Apple  
+  - Samsung  
+  - OnePlus  
+  - Vivo  
+  - Xiaomi  
+
+Metrics include:
+- Total Sales  
+- Total Quantity  
+- Total Transactions  
+
+---
+
+### 🔹 Model-wise Sales (Bar Chart)
+- Identifies top-performing mobile models
+- Supports product-level performance evaluation
+
+---
+
+### 🔹 Sales by Day of the Week (Area Chart)
+- Tracks weekday sales trends
+- Helps optimize promotions and staffing strategies
+
+---
+
+## 💡 Business Insights
+- A small number of brands contribute a large share of total revenue
+- Metro cities dominate overall sales performance
+- UPI is the most preferred payment method
+- Sales show clear monthly and weekday patterns
+- Higher-rated products tend to perform better in sales
+
+---
+
+## 📌 Key Takeaways
+- Enables quick comparison of brand and model performance
+- Provides clear visibility into regional demand
+- Helps understand customer payment and satisfaction behavior
+- Supports inventory planning, pricing, and marketing strategies
+
+---
+
+## 🚀 How to Use
+1. Download the `.pbix` file from the repository  
+2. Open it using **Power BI Desktop**  
+3. Use slicers and filters to explore insights interactively  
+
+---
+
+## ⭐ Why This Project Matters
+This project demonstrates:
+- Strong analytical thinking
+- Business-focused data storytelling
+- Proficiency in Power BI, DAX, and Power Query
+- Real-world sales analytics use case
+
+Ideal for **Data Analyst / Business Analyst / Power BI Developer** portfolios.
